@@ -1,0 +1,24 @@
+{{ define "main" }}
+    <div class="waitlist-badge">Waitlist v1 • Coming Soon</div>
+    <h1 class="text-5xl mb-6">Your mind, 
+        <span class="accent-text">
+            <span class="gradient-text" id="typed-text"></span>
+            <span class="cursor"></span>
+        </span>
+    </h1>
+    <p class="text-xl text-gray-400 max-w-2xl mx-auto mb-10">Transform any content into powerful learning experiences with Heuter's intelligent course creation platform.</p>
+    <script async data-uid="b40cf58333" src="https://heuter.ck.page/b40cf58333/index.js"></script>
+    <div class="text-gray-400 mb-4">
+        Join the 100+ members who have already signed up.
+    </div>
+    <div class="flex justify-center mb-16">
+        <div><img class="w-8 h-8 rounded-full" src="https://picsum.photos/210" alt="Random Image"></div>
+        <div><img class="w-8 h-8 rounded-full" src="https://picsum.photos/200" alt="Random Image"></div>
+        <div><img class="w-8 h-8 rounded-full" src="https://picsum.photos/201" alt="Random Image"></div>
+        <div><img class="w-8 h-8 rounded-full" src="https://picsum.photos/202" alt="Random Image"></div>
+        <div><img class="w-8 h-8 rounded-full" src="https://picsum.photos/203" alt="Random Image"></div>
+    </div>
+    
+    {{ partial "content-sources.html" . }}
+    {{ partial "learning-domains.html" . }}
+{{ end }}

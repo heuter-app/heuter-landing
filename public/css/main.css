@@ -1,0 +1,171 @@
+/* body {
+  color: #222;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 1rem;
+  max-width: 768px;
+}
+
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+a {
+  color: #00e;
+  text-decoration: none;
+} */
+body {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  background-color: #0f1116;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: radial-gradient(circle at top, #2d6f4f, #0f1116);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: #4caf50;
+  border-radius: 50%;
+}
+
+.waitlist-badge {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+input[type="email"] {
+  padding: 15px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 5px 0 0 5px;
+  color: #ffffff;
+}
+
+button {
+  padding: 15px 30px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.formkit-form[data-uid="b40cf58333"] {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.accent-text {
+  display: inline-block;
+  min-width: 140px;
+  text-align: left;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #4ade80, #3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  height: 1.2em;
+  background-color: #ffffff;
+  margin-left: 2px;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* Additional utility classes */
+.text-center { text-align: center; }
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-between: space-between; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-6 { margin-bottom: 1.5rem; }
+.mb-10 { margin-bottom: 2.5rem; }
+.mb-16 { margin-bottom: 4rem; }
+.mb-20 { margin-bottom: 5rem; }
+.mt-8 { margin-top: 2rem; }
+.mt-20 { margin-top: 5rem; }
+.ml-6 { margin-left: 1.5rem; }
+.mr-4 { margin-right: 1rem; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+.py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+.p-6 { padding: 1.5rem; }
+.text-5xl { font-size: 3rem; }
+.text-3xl { font-size: 1.875rem; }
+.text-xl { font-size: 1.25rem; }
+.text-sm { font-size: 0.875rem; }
+.font-semibold { font-weight: 600; }
+.text-white { color: #ffffff; }
+.text-gray-400 { color: #9ca3af; }
+.bg-gray-800 { background-color: #1f2937; }
+.rounded-lg { border-radius: 0.5rem; }
+.rounded-full { border-radius: 9999px; }
+.shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
+.w-8 { width: 2rem; }
+.h-8 { height: 2rem; }
+.space-y-2 > * + * { margin-top: 0.5rem; }
+.space-y-4 > * + * { margin-top: 1rem; }
+.space-x-4 > * + * { margin-left: 1rem; }
+
+/* Responsive grid */
+.grid { display: grid; }
+.gap-8 { gap: 2rem; }
+.grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .md\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+/* Hover effects */
+.hover\:text-white:hover { color: #ffffff; }
+.hover\:text-gray-300:hover { color: #d1d5db; }
+.transition-colors { transition-property: color; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
