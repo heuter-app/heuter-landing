@@ -1,5 +1,5 @@
 baseURL = 'http://heuter.xyz/'
 languageCode = 'en-us'
 title = 'Heuter - Transform Any Content into Powerful Courses'
-theme = 'Heuter'
+theme = 'heuter'
 
