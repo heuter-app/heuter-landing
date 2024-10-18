@@ -3,6 +3,7 @@ date = '2024-10-18T11:23:16+05:30'
 draft = false
 title = 'How to Effectively Use AI in Education: A Comprehensive Guide'
 tags = ['AI Tutor','AI', 'Personalized Learning', 'Online Learning']
+summary = 'AI in education enhances personalized learning, automates tasks like grading, and boosts engagement in online learning. With AI tutors and predictive analytics, students receive tailored support, while educators can improve learning outcomes efficiently.'
 +++
 
 In recent years, the integration of AI in education has transformed how students learn and how teachers deliver content. The rise of online learning has further accelerated the adoption of AI tools, making education more personalized, accessible, and efficient. In this blog post, we'll explore how to effectively use AI tutor systems and other AI-powered technologies to enhance learning experiences and outcomes.

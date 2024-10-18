@@ -94,6 +94,7 @@ button {
 
 /* Additional utility classes */
 .text-center { text-align: center; }
+.text-left {text-align: left;}
 .flex { display: flex; }
 .flex-col { flex-direction: column; }
 .items-center { align-items: center; }
@@ -153,8 +154,21 @@ button {
   color: var(--tw-prose-body);
 }
 
-.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+.prose h1, .prose h3, .prose h4, .prose h5, .prose h6 {
   color: var(--tw-prose-headings);
+}
+
+.prose p {
+  margin-bottom: 1.5em; /* Increase space between paragraphs */
+  line-height: 1.8; /* Increase line height for better readability */
+  font-size: 1.2em;
+}
+
+.prose h2 {
+  margin-top: 1.5em; /* Add more space above subheadings */
+  /* color: #4ade80; Light green color for subheadings */
+  color: var(--tw-prose-headings);
+  font-size: 1.5em;
 }
 
 .prose a {
@@ -192,6 +206,11 @@ button {
 
 .prose figcaption {
   color: var(--tw-prose-captions);
+}
+
+.prose img {
+  border-radius: 8px; /* Rounded corners for images */
+  margin: 2em 0; /* Add more vertical space around images */
 }
 
 .prose code {
