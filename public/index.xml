@@ -6,12 +6,19 @@
     <description>Recent content in Home on Heuter - Transform Any Content into Powerful Courses</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Oct 2024 11:23:16 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 18 Oct 2024 11:58:33 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Future of Education: How Online Learning is Revolutionizing the Way We Learn</title>
+      <link>http://localhost:1313/posts/future-of-ed/</link>
+      <pubDate>Fri, 18 Oct 2024 11:58:33 +0530</pubDate>
+      <guid>http://localhost:1313/posts/future-of-ed/</guid>
+      <description>A look at how online learning is revolutionizing education.</description>
+    </item>
     <item>
       <title>How to Effectively Use AI in Education: A Comprehensive Guide</title>
       <link>http://localhost:1313/posts/use-ai-in-ed/</link>
-      <pubDate>Fri, 18 Oct 2024 11:23:16 +0530</pubDate>
+      <pubDate>Thu, 17 Oct 2024 11:23:16 +0530</pubDate>
       <guid>http://localhost:1313/posts/use-ai-in-ed/</guid>
       <description>AI in education enhances personalized learning, automates tasks like grading, and boosts engagement in online learning. With AI tutors and predictive analytics, students receive tailored support, while educators can improve learning outcomes efficiently.</description>
     </item>

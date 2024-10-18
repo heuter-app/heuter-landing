@@ -1,5 +1,5 @@
 +++
-date = '2024-10-18T11:23:16+05:30'
+date = '2024-10-17T11:23:16+05:30'
 draft = false
 title = 'How to Effectively Use AI in Education: A Comprehensive Guide'
 tags = ['AI Tutor','AI', 'Personalized Learning', 'Online Learning']
