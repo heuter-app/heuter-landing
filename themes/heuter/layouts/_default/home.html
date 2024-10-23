@@ -1,24 +1,59 @@
 {{ define "main" }}
-    <div class="waitlist-badge">Waitlist v1 • Coming Soon</div>
-    <h1 class="text-5xl mb-6">Your mind, 
-        <span class="accent-text">
-            <span class="gradient-text" id="typed-text"></span>
-            <span class="cursor"></span>
-        </span>
-    </h1>
-    <p class="text-xl text-gray-400 max-w-2xl mx-auto mb-10">Transform any content into powerful learning experiences with Heuter's intelligent course creation platform.</p>
-    <script async data-uid="b40cf58333" src="https://heuter.ck.page/b40cf58333/index.js"></script>
-    <div class="text-gray-400 mb-4">
-        Join the 100+ members who have already signed up.
+    <div class="max-w-4xl mx-auto text-center px-4 pt-20 pb-16">
+        <!-- Announcement badge -->
+        <div class="inline-flex items-center gap-2 bg-green-50 text-green-500 rounded-full px-4 py-1 mb-8">
+            <span class="text-sm">🎉 Announcement</span>
+            <span class="text-sm">•</span>
+            <span class="text-sm">Introducing Heuter</span>
+            <span class="text-sm">→</span>
+        </div>
+
+        <!-- Main heading -->
+        <h1 class="text-6xl font-bold mb-6">
+            Your mind,
+            <span class="accent-text">
+                <span class="gradient-text" id="typed-text"></span>
+                <span class="cursor"></span>
+            </span>
+        </h1>
+
+        <!-- Subtitle -->
+        <p class="text-xl text-gray-600 mb-8">
+            Transform any content into powerful learning experiences with Heuter's intelligent course creation platform.
+        </p>
+
+        <!-- CTA Button -->
+        <div class="mb-4">
+            <!-- <button class="bg-red-500 hover:bg-red-600 text-white font-medium px-8 py-3 rounded-lg flex items-center gap-2 mx-auto">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+                Get started for free
+            </button> -->
+            <script async data-uid="b40cf58333" src="https://heuter.ck.page/b40cf58333/index.js"></script>
+        </div>
+
+        <!-- Trial text -->
+        <!-- <div class="text-gray-500 text-sm mb-8">
+            7 day free trial. No credit card required.
+        </div> -->
+
+        <!-- Social proof -->
+        <div class="text-gray-500 mb-4">
+            Join the 100+ members who have already signed up.
+        </div>
+        
+        <!-- User avatars -->
+        <div class="flex justify-center items-center gap-[-0.75rem]">
+            <div><img class="w-8 h-8 rounded-full border-2 border-white" src="https://picsum.photos/210" alt="Random Image"></div>
+            <div><img class="w-8 h-8 rounded-full border-2 border-white" src="https://picsum.photos/200" alt="Random Image"></div>
+            <div><img class="w-8 h-8 rounded-full border-2 border-white" src="https://picsum.photos/201" alt="Random Image"></div>
+            <div><img class="w-8 h-8 rounded-full border-2 border-white" src="https://picsum.photos/202" alt="Random Image"></div>
+            <div><img class="w-8 h-8 rounded-full border-2 border-white" src="https://picsum.photos/203" alt="Random Image"></div>
+        </div>
     </div>
-    <div class="flex justify-center mb-16">
-        <div><img class="w-8 h-8 rounded-full" src="https://picsum.photos/210" alt="Random Image"></div>
-        <div><img class="w-8 h-8 rounded-full" src="https://picsum.photos/200" alt="Random Image"></div>
-        <div><img class="w-8 h-8 rounded-full" src="https://picsum.photos/201" alt="Random Image"></div>
-        <div><img class="w-8 h-8 rounded-full" src="https://picsum.photos/202" alt="Random Image"></div>
-        <div><img class="w-8 h-8 rounded-full" src="https://picsum.photos/203" alt="Random Image"></div>
-    </div>
-    
+
+    {{ partial "problem.html"}}
     {{ partial "content-sources.html" . }}
     {{ partial "learning-domains.html" . }}
 {{ end }}
